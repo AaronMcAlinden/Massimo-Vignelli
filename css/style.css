@@ -1,0 +1,307 @@
+body    {
+    font-size: 100%;
+    font-family: 'helvetica', 'Arial', 'futura';
+    color: #f0f0f0;
+    line-height: 2em;
+    background-color: #ff3333;
+}
+
+            
+article { 
+    max-width; 650px;
+    min-height: 320px;
+   
+}
+
+
+header  {
+    background-color: black;   
+}
+
+.main-footer
+{
+    clear:both;
+    background-color:black;
+    color:white;
+    line-height: 1.4em;
+    padding-bottom: 40em;
+}
+
+
+/*------------------ images ------------------*/
+.demo-2 {
+    position:relative;
+    width:300px;
+    height:200px;
+    overflow:hidden;
+    float:left;
+    margin-right:20px;
+    background-color:rgba(26,76,110,0.5)
+}
+.demo-2 p,.demo-2 h2 {
+    color:#fff;
+    padding:10px;
+    left:-20px;
+    top:20px;
+    position:relative
+}
+.demo-2 p {
+    font-family:'Lato';
+    font-size:12px;
+    line-height:18px;
+    margin:0
+}
+.demo-2 h2 {
+    font-size:20px;
+    line-height:24px;
+    margin:0;
+    font-family:'Lato'
+}
+.effect img {
+    position:absolute;
+    left:0;
+    bottom:0;
+    cursor:pointer;
+    margin:-12px 0;
+    -webkit-transition:bottom .3s ease-in-out;
+    -moz-transition:bottom .3s ease-in-out;
+    -o-transition:bottom .3s ease-in-out;
+    transition:bottom .3s ease-in-out
+}
+.effect img.top:hover {
+    bottom:-96px;
+    padding-top:100px
+}
+h2.zero,p.zero {
+    margin:0;
+    padding:0
+}
+
+.portrait    {
+    float: right;
+}
+
+
+/*------------------ TYPOGRAPHY -------------------*/
+
+h1  {
+    font-size: 6.854em;
+    line-height:1em;
+    font-weight:800;
+}
+
+h2  {
+    font-size:  2.618em;
+    line-height: 1em;
+    font-weight: 600;
+    padding-top: 6em;
+}
+
+h3  {
+    font-size: 4.236em;
+    font-weight: 100%;
+    line-height: 1em;
+    color: #222;
+}
+
+h4  {
+    font-size: 1.618em;
+    font-weight: 600;
+    color: #f0f0f0;
+}
+
+p   {
+    padding-top: 2em;
+}
+
+
+blockquote  {
+    font-family: "bodoni", "times roman", serif;
+    font-size: 2.618em;
+    text-align: left;
+    line-height: 1em;
+    color:#222;  
+    }
+
+
+cite    {
+    font-size: .75em;
+    font-family: "bodoni", "times roman", serif;
+    }
+
+
+.bq2    {
+    padding-top: .25em;
+}
+
+
+.bq3    {
+    font-size: 4.236em;
+
+        }
+
+
+.toptag1    { 
+    float: right;
+    margin: 16em 1em 0 0;
+}
+
+
+.toptag1:hover  {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+
+.toptag { 
+    float: right;
+    margin: 20em 1em 0 0;
+}
+
+
+.toptag:hover  {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+
+.toptag2    {
+    float: right;
+    margin: 10em 1em 0 0;
+}
+
+
+.toptag2:hover  {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.toptag3    {
+    float: right;
+    margin: 25em 1em 0 0;
+}
+
+
+.toptag3:hover  {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.ref    {
+    width: 90%;
+    color:#f0f0f0;
+    padding-top: .5em;
+    padding-bottom: .25em;
+    border-bottom: 2px solid #f0f0f0;
+    margin: 0 auto;
+}
+
+.refs   {
+    width: 90%;
+    color:#f0f0f0;
+    margin: 0 auto;
+}
+
+/*------------------------ Nav -------------------------*/
+            
+nav { 
+    width: 100%;
+    border-bottom: 2px solid #f0f0f0;
+    font-size: 1em;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+    letter-spacing: 2px;     
+}
+        
+a:hover {
+    color: #ff3333;
+}
+
+
+/*----------------------- layout ------------------------*/
+
+
+
+
+
+/*------------------------ Grid -------------------------*/
+
+.textwrapping   {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container {
+	
+	margin-right: auto;
+	margin-left: auto; 
+    width: 90%;
+    
+   
+}
+.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child { 
+	margin-left: 0; 
+
+}
+
+.six {
+	width: 100%; 
+	display: block; 
+}
+.five {
+	width: 80%; 
+	display: block;
+	float:left;
+	margin-left: 2%;
+}
+.four {
+	width: 66%;
+	display: block;
+	float:left;
+	margin-left: 2%;
+
+}
+.three {
+	width: 49%;
+	display: block;
+	float:left;
+	margin-left: 2%;
+
+}
+.two {
+	width: 32%;
+	display: block;
+	float:left;
+	margin-left: 2%;
+
+	}
+.one {
+	width: 15%;
+	display: block;
+	float:left;
+	margin-left: 2%;
+
+}
+.row {
+	width: 100%;
+	clear: both; 
+	padding: 0px;
+	margin: 0px;
+    
+    /*------------- media queries -------------*/
+ 
